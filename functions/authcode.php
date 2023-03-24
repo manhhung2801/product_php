@@ -96,6 +96,7 @@ include("./myfunctions.php");
 
         $userdata = mysqli_fetch_array($login_query_run);
 
+        $user_id = $userdata["id"];
         $username = $userdata["name"];
         $useremail = $userdata["email"];
         $role_as = $userdata["role_as"];
@@ -103,6 +104,7 @@ include("./myfunctions.php");
         if(mysqli_num_rows($login_query_run) > 0){
             $_SESSION["auth"] = true;
             $_SESSION["auth_user"] = [
+                'user_id' => $user_id,
                 'name' => $username,
                 'email' => $useremail
             ];

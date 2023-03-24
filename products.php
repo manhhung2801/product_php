@@ -64,5 +64,5 @@ if(isset($_GET["category"])){
 }else {
     "Something went wrong";
 }
-include("includes/footer.php.php"); 
+include("./includes/footer.php.php"); 
 ?>

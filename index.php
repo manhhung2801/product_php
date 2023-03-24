@@ -24,4 +24,4 @@ include("includes/header.php");
 <button class="btn btn-primary">Testing</button>
 
 <!-- Optional JavaScript; choose one of the two! -->
-<?php include("includes/footer.php.php"); ?>
+<?php include("./includes/footer.php.php"); ?>

@@ -2,6 +2,9 @@
 include("functions/userfunctions.php");
 include("includes/header.php"); 
 
+// echo '<pre>';
+// var_dump($_SESSION);
+// echo '</pre>';
 
 if(isset($_GET["product"])){
     $product_slug = $_GET["product"];
@@ -70,6 +73,8 @@ if(isset($_GET["product"])){
                                 </div>  
                         </div>  
                 </div>
+
+
         </div>
         
 
@@ -80,5 +85,6 @@ if(isset($_GET["product"])){
 }else {
     echo "Something went wrong";
 }
-include("includes/footer.php.php"); 
+
+include("./includes/footer.php"); 
 ?>

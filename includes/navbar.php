@@ -13,6 +13,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="categories.php">Collections</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.php">cart</a>
+                </li>
                 <?php 
                     if(isset($_SESSION['auth'])) 
                     {

@@ -1,6 +1,6 @@
 <?php 
-include("functions/userfunctions.php");
-include("includes/header.php"); 
+include("./functions/userfunctions.php");
+include("./includes/header.php"); 
 ?>
 <div class="py-3 bg-primary">
     <div class="container">
@@ -44,4 +44,4 @@ include("includes/header.php");
 </div>
 
 <!-- Optional JavaScript; choose one of the two! -->
-<?php include("includes/footer.php.php"); ?>
+<?php include("./includes/footer.php.php"); ?>
